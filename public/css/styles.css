@@ -1,0 +1,60 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+.main-content {
+    flex-grow: 1;
+    color: #02000a;
+}
+
+footer {
+    color: #0ed8d8;
+    border-top: 5px solid #0ed8d8;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+    color: #0ed8d8;
+    border-top: 20px solid #0ed8d8;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+    color: #0ed8d8;
+}
+
+header a {
+    color: #07060f;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+   
+}
+
+input {
+    border: 1px solid #0ed8d8;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #0f0f0f;
+    color: white;
+    padding: 8px;
+}
